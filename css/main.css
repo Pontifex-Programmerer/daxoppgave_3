@@ -1,0 +1,32 @@
+:root {
+    --color-1: #7EB849;
+    --color-2: #50BEC0;
+    --color-3: #CF6461;
+    --color-4: #f6e3e3;
+  }
+
+body {
+    background-color: var(--color-4);
+}
+
+p,
+figcaption,
+h1 {
+    color: var(--color-3);
+}
+
+
+section {
+    text-align: center;
+    margin: auto;
+}
+
+#secret-message {
+    background-color: var(--color-1);
+    font-family: Arial, Helvetica, sans-serif;
+    width: 80ch;
+    line-height: 2;
+    padding: 5px;
+    margin: 2em auto;
+    border-radius: 5px;
+}
